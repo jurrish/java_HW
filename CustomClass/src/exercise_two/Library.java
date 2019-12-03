@@ -15,6 +15,6 @@ public class Library
 
     public String toString()
     {
-        return "Book of the month - " + bookOfTheMonth + ", # of books - " + allBooks.length;
+        return "Book of the month - " + bookOfTheMonth.getTitle() + ", # of books - " + allBooks.length;
     }
 }

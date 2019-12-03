@@ -7,9 +7,11 @@ public class Rational
 
     public Rational(double numerator, double denominator)
     {
-        if(denominator == 0){
+        if(denominator == 0)
+        {
             System.out.println("Error: cannot divide by zero - " + numerator + "/0");
         }
+
         this.numerator = numerator;
         this.denominator = denominator;
     }

@@ -29,7 +29,7 @@ public class ExerciseFiveDriver
         for (int i = 0; i < 10; i++)
         {
             Athlete newAthlete = new Athlete(
-                    sport[0], //only football per homework instructions
+                    sport[0], //only football - per homework instructions
                     position[randomizer.nextInt(BOUNDARY)],
                     firstNames[randomizer.nextInt(BOUNDARY)],
                     lastNames[randomizer.nextInt(BOUNDARY)]

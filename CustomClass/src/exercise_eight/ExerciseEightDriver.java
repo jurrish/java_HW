@@ -11,11 +11,15 @@ public class ExerciseEightDriver
 {
     public static void main(String[] args)
     {
+        Rational rationalObj = new Rational();
+
         for (double i = 1; i < 10; i++)
         {
+            rationalObj.setNumerator(i);
+
             for (double j = 1; j < 10; j++)
             {
-                Rational rationalObj = new Rational(i,j);
+                rationalObj.setDenominator(j);
                 System.out.println(rationalObj);
             }
         }

@@ -7,14 +7,16 @@ public class Book
     private int pages;
     private boolean hardcover;
 
-    public Book(String title, String author, int pages, boolean hardcover) {
+    public Book(String title, String author, int pages, boolean hardcover)
+    {
         this.title = title;
         this.author = author;
         this.pages = pages;
         this.hardcover = hardcover;
     }
 
-    public Book() {
+    public Book()
+    {
         this.title = "some default title";
         this.author = "some default author";
         this.pages = 100;

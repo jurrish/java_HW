@@ -57,6 +57,6 @@ public class Athlete
 
     public String toString()
     {
-        return "Athlete - " + firstName + " " + lastName + "(" + sport + " - " + position + ")";
+        return "Athlete - " + firstName + " " + lastName + " (" + sport + " - " + position + ")";
     }
 }

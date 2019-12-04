@@ -1,3 +1,10 @@
+/*
+    Name: JR Iriarte
+    Date: Nov 25, 2019
+    File: Library.java
+    Description: Library class that will contain Books - problem 2
+ */
+
 package exercise_two;
 
 public class Library

@@ -1,3 +1,10 @@
+/*
+    Name: JR Iriarte
+    Date: Nov 25, 2019
+    File: Rational.java
+    Description: Rational class for problem 8
+ */
+
 package exercise_eight;
 
 public class Rational

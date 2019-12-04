@@ -1,3 +1,10 @@
+/*
+    Name: JR Iriarte
+    Date: Nov 25, 2019
+    File: CheckoutLine.java
+    Description: Class for problem 6
+ */
+
 package exercise_six;
 
 import java.util.Arrays;

@@ -1,3 +1,10 @@
+/*
+    Name: JR Iriarte
+    Date: Nov 25, 2019
+    File: Book.java
+    Description: Book class for problem 2
+ */
+
 package exercise_two;
 
 public class Book

@@ -1,3 +1,10 @@
+/*
+    Name: JR Iriarte
+    Date: Nov 25, 2019
+    File: Athlete.java
+    Description: Athlete class for problem 5
+ */
+
 package exercise_five;
 
 public class Athlete

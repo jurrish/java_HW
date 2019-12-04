@@ -18,21 +18,25 @@ public class Point
 
     public double getX()
     {
+
         return x;
     }
 
     public double getY()
     {
+
         return y;
     }
 
     public String toString()
     {
+
         return "Point - x: " + x + ", y: " + y;
     }
 
     public boolean isLocatedAtOrigin()
     {
+        //if (0,0) return true
         if(x == 0 && y == 0)
         {
             return true;
@@ -45,6 +49,7 @@ public class Point
 
     public double distance(double xOther, double yOther)
     {
+        //distance formula given x and y values
         return Math.sqrt( (Math.pow((y-yOther),2))+(Math.pow((x-xOther), 2)));
     }
 }

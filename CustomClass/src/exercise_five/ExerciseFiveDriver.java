@@ -11,11 +11,12 @@ import java.util.Random;
 
 public class ExerciseFiveDriver
 {
+    //store in fields
     private static final int BOUNDARY = 5;
-    private static String[] firstNames = new String[] { "Tom", "Russel", "Drew", "Aaron", "Kam"};
-    private static String[] lastNames = new String[] {"Brady", "Wilson", "Brees", "Rodgers", "Chancellor"};
-    private static String[] sport = new String[] {"Football", "Baseball", "Hockey", "Basketball", "Curling"};
-    private static String[] position = new String[] {"Quarterback", "Safety", "Cornerback", "Center", "Runningback"};
+    private static String[] firstNames = new String[] { "Tom", "Russel", "Drew", "Aaron", "Kam" };
+    private static String[] lastNames = new String[] { "Brady", "Wilson", "Brees", "Rodgers", "Chancellor" };
+    private static String[] sport = new String[] { "Football", "Baseball", "Hockey", "Basketball", "Curling" };
+    private static String[] position = new String[] { "Quarterback", "Safety", "Cornerback", "Center", "Runningback" };
 
     public static void main(String[] args)
     {
@@ -26,6 +27,7 @@ public class ExerciseFiveDriver
     {
         Random randomizer = new Random();
 
+        //iterate and randomize the current index based on a value created by randomizer
         for (int i = 0; i < 10; i++)
         {
             Athlete newAthlete = new Athlete(

@@ -7,6 +7,7 @@ public class Rational
 
     public Rational(double numerator, double denominator)
     {
+        //could use enum here
         if(denominator == 0)
         {
             System.out.println("Error: cannot divide by zero - " + numerator + "/0");

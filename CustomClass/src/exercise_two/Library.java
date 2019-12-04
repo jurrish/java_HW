@@ -3,9 +3,7 @@ package exercise_two;
 public class Library
 {
     private Book[] allBooks;
-    private static Book bookOfTheMonth;
-
-//    private static getBooks
+    private static Book bookOfTheMonth; //shared state accessible by Class
 
     public Library(Book bookOfTheMonth, Book[] allBooks)
     {

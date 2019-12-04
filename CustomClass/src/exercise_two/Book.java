@@ -7,6 +7,7 @@ public class Book
     private int pages;
     private boolean hardcover;
 
+    //parameratized constructor
     public Book(String title, String author, int pages, boolean hardcover)
     {
         this.title = title;
@@ -15,6 +16,7 @@ public class Book
         this.hardcover = hardcover;
     }
 
+    //default
     public Book()
     {
         this.title = "some default title";
@@ -25,27 +27,31 @@ public class Book
 
     public String getTitle()
     {
+
         return title;
     }
 
     public String getAuthor()
     {
+
         return author;
     }
 
     public int getPages()
     {
+
         return pages;
     }
 
     public boolean isHardcover()
     {
+
         return hardcover;
     }
 
     public String toString()
     {
-        //The Hunger Games by Suzanne Collins (300 pages)
+        //inherited by every instance of Book, and children of Book (unless overridden)
         return title + " by " + author + " (" + pages + " pages)";
     }
 }

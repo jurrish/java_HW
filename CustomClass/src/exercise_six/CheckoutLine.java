@@ -39,8 +39,10 @@ public class CheckoutLine
 
     public void enterLine(String name)
     {
+        //iterate backwards until at the first index, then set 0th index to the argument that was passed in
         for (int i = peopleInLine.length - 1; i > 0; i--)
         {
+            //swap
             peopleInLine[i] = peopleInLine[i - 1];
             if(i == 1)
             {
